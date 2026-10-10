@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garotos de programa | Squad de Free Fire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="primeirapagina.html">Garotos de programa<span>Squad de Free Fire</span></a>
+            <nav class="site-nav" aria-label="Navegação principal">
+                <a href="primeirapagina.html" aria-current="page">Apresentação</a>
+                <a href="segundaempagina.html">Desempenho</a>
+                <a href="terceirapagina.html">Estatísticas</a>
+                <a href="quartapagina.html">Confirmação</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-shell">
+        <section class="hero" aria-labelledby="page-title">
+            <div class="hero-copy">
+                <p class="eyebrow">Central do squad</p>
+                <h1 id="page-title">Bem-vindos à central de desempenho profissional do squad "Garotos de programa"</h1>
+                <p class="lead">Acompanhe o desempenho do time e venha jogar conosco.</p>
+            </div>
+            <figure class="hero-figure">
+                <img src="images/garotos de programa ajustado.jpeg" alt="Integrantes do squad Garotos de programa">
+            </figure>
+        </section>
+
+        <section class="join-section" aria-labelledby="join-title">
+            <p class="eyebrow">Faça parte do time</p>
+            <h2 id="join-title">Jogue conosco!</h2>
+            <form class="join-form" action="quartapagina.html" method="get">
+                <fieldset>
+                    <legend>Cadastro de jogador</legend>
+                    <div class="form-fields">
+                        <div class="form-field">
+                            <label for="player-nick">Nick do jogador</label>
+                            <input id="player-nick" name="nick" type="text" placeholder="Digite seu Nick" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="player-id">ID do jogador</label>
+                            <input id="player-id" name="id" type="text" inputmode="numeric" placeholder="Digite seu ID" required>
+                        </div>
+                    </div>
+                    <div class="button-row">
+                        <button class="button" type="submit">Enviar cadastro</button>
+                        <a class="button button-secondary" href="segundaempagina.html">Ver desempenho</a>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <p>Garotos de programa · Free Fire</p>
+            <p>Desempenho e estatísticas do squad</p>
+        </div>
+    </footer>
+</body>
+</html>
